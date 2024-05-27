@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 10%;
+    background-color: black;
+}
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .chat-messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .chat-message {
+    margin-bottom: 10px;
+  }
+  
+  .chat-message-text {
+    font-family: Montserrat ;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .chat-message-timestamp {
+    font-size: 12px;
+    color: #ccc;
+  }
+  
+  .chat-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #000;
+    border: 5px solid #fff;
+    border-radius: 10px;
+  }
+  
+  .chat-input input {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .sender {
+    background-image: linear-gradient(90deg, #000000 10%, #4c4848 75%);
+    text-align: right;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 100px;
+    margin-left: auto;
+  }
+  
+  .receiver {
+    text-align: left;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: auto;
+  }
+  button {
+    display: inline-block; /* Add this */
+    border: none;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    text-align: center; /* Center the icon horizontally */
+    padding: 10px; /* Add some padding to make the icon visible */
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Set the height to the full viewport height */
+  }
+  
+  .chat-messages {
+    flex: 1; /* Make the messages container take up the remaining space */
+    overflow-y: auto; /* Add scrollbars if the messages overflow */
+  }
+  
+  .chat-input-container {
+    position: absolute ; /* Make the input container stick to the bottom */
+    bottom: 0;
+    background-color: #f0f0f0; /* Set a light gray background */
+    border-radius: 20px; /* Make the container rounded */
+    padding: 10px; /* Add some padding */
+  }
+  
+  .chat-input {
+    width: 100%; /* Make the input field full width */
+    padding: 10px; /* Add some padding */
+    border: none; /* Remove the default border */
+    border-radius: 20px; /* Make the input field rounded */
+    font-size: 16px; /* Set a decent font size */
+    background-color: transparent; /* Make the input field background transparent */
+    color: #333; /* Set the text color */
+  }
+  
+  .chat-input::placeholder {
+    color: #aaa; /* Set the placeholder text color */
+  }
+  
+  .chat-input:focus {
+    outline: none; /* Remove the default focus outline */
+    box-shadow: 0 0 0 2px #007bff; /* Add a blue border on focus */
+  }
+  
+  .chat-send-button {
+    display: inline-block; /* Make the button an inline block */
+    width: 40px; /* Set a fixed width and height */
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    text-align: center; /* Center the icon horizontally */
+    padding: 10px; /* Add some padding to make the icon visible */
+    margin-left: 10px; /* Add some margin to the left */
+  }
+  
+  .chat-send-button:hover {
+    background-color: #0069d9;
+  }
+  .chat-message {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+ 

@@ -1,2 +1,1 @@
-# We-Chat
-It's a repository created by the students of Bachelor's in Computer Applications for a project named 'We Chat'.
+This is a Project Created by the students of Bachelor's in Computer Applications of Nehru Memorial Post Graduate College affiliated to Maharaja Ganga Singh University. 
